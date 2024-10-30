@@ -1,0 +1,55 @@
+.kinogallery
+{
+	
+}
+
+.kinogallery-pic
+{
+	float: left;
+	margin: 0px 5px 5px 0px;
+	display: block;
+	width: auto;
+	padding: 0px;
+	
+}
+
+.kinogallerypic.last
+{
+	margin-right: 0px;	
+}
+
+.kinogallery-pic a
+{
+	outline: none;
+	float: left;
+	display: block;
+}
+
+.kinogallery-pic img
+{
+	opacity: 0.1;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	
+}
+
+.kinogallery-pic a:hover img
+{
+	opacity: 1;
+}
+
+.kinogallery-pic a.selected img
+{
+	opacity: 1 !important;
+}
+
+.clear
+{
+	height: 1px;
+	display: block;
+	clear: both;
+}
+
+
+

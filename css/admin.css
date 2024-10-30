@@ -1,0 +1,55 @@
+/* CSS Document */
+
+.label
+{
+	display: block;
+	min-width: 10%;	
+	float: left;
+}
+
+.label label
+{
+	display: block;
+	line-height: 1.2em;
+}
+
+.textbox
+{
+	float: left;
+	width: 200px;	
+}
+
+.field 
+{
+	display: block;
+	width: 70%;
+	float: right;
+	text-align: left;
+	min-height: 20px;
+}
+
+.field input[type=text],
+.field textarea
+{
+	width: 100%;	
+}
+
+.row
+{
+	margin-bottom: 3px;	
+}
+
+.additionalEditor
+{
+	border: 1px solid #dfdfdf;
+}
+
+.green
+{
+	color: #6C0;
+}
+
+.red
+{
+	color: #F00;
+}
